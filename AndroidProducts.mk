@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_spes.mk
+    $(LOCAL_DIR)/aosp_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    custom_spes-user \
-    custom_spes-userdebug \
-    custom_spes-eng
+    aosp_spes-user \
+    aosp_spes-userdebug \
+    aosp_spes-eng
